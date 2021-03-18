@@ -1,0 +1,35 @@
+.title {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 18px;
+  &_name {
+    display: block;
+    font-size: 18px;
+  }
+  &_icon {
+    margin-left: 8px;
+    font-size: 16px;
+  }
+}
+
+.fild {
+  width: 80px;
+  border: 1px solid #2babe2;
+  padding: 4px 5px;
+  outline: none;
+  border-radius: 3px;
+  &_error {
+    width: 80px;
+    border: 1px solid red;
+    padding: 4px 5px;
+    border-radius: 3px;
+    outline: none;
+  }
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background-color: white;
+}
